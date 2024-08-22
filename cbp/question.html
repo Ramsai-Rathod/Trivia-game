@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div id="triviaForm"  >
+        <div id="question">
+        <div id="questionTitle"></div>
+        <div id="questionText"></div>
+        <div id="optionsContainer"></div>
+        <!-- <button onclick="nextQuestion()">Next</button> -->
+    </div>
+        <form id="scoreForm" action="./scoreserv" method="POST" style="display:none;">
+            <div id="div">
+                <h1>score: </h1> <p id="score"></p>
+            </div>
+            <input type="hidden" id="scoreInput" name="score" value="">
+            <button type="submit" id="submitBtn">Submit Score</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

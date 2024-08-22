@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url('./login.jpg');
+    background-size: cover; /* This ensures the image covers the entire screen */
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    /* background-attachment: fixed; Optional: keeps the background fixed during scrolling */
+  }
+  
+table, th, td {
+    border: 15px ; /* Increased border width */
+    margin:50px 50px;
+    padding: 20px 30px;
+    font-size: 30px;
+  }
+  .container{
+    margin-top: 100px;
+    display: block;
+    width: 50%;
+    height: 70%;
+    margin-left: 500px;
+  }
+  

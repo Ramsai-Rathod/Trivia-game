@@ -1,0 +1,72 @@
+body {
+    background-image: url('./login.jpg');
+    background-size: cover; /* This ensures the image covers the entire screen */
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#triviaForm {
+    height: 75%;
+    width: 75%;
+    margin: auto;
+}
+
+#question {
+    font-size: 30px; /* Converted from 8rem */
+    margin: 8px; /* Converted from 5rem */
+}
+
+#questionTitle {
+    margin: 10px; /* Converted from 5rem */
+}
+
+#questionText {
+    font-size: 35px; /* Converted from 10rem */
+}
+
+#optionsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px; /* Converted from 9rem */
+}
+
+button {
+    margin-left: 150px; /* Converted from 30rem */
+    border: 0;
+    display: block;
+    font-size: 20px; /* Converted from 5rem */
+    width: 50%;
+    height:50px;
+    background-color: transparent;
+    margin-bottom: 60px; /* Converted from 5rem */
+}
+
+button:hover {
+    background-color: rgb(82, 152, 234);
+    border-radius: 32px; /* Converted from 2rem */
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 30px; /* Converted from 5rem */
+    display: inline;
+}
+
+#score {
+    font-size: 30px; /* Converted from 5rem */
+    display: inline;
+}
+
+#scoreForm {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    margin: 48px 32px; /* Converted from 30% 20% */
+}
+
+#div {
+    padding-left: 300px; /* Converted from 35% */
+    margin-bottom: 80px; /* Converted from 5rem */
+}
